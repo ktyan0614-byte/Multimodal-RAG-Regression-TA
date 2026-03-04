@@ -23,6 +23,10 @@
 ### 3. 本地端高效檢索 (Local Vector Search)
 預先將迴歸分析教材切塊 (Chunking) 並轉換為向量，儲存於 `FAISS` 建立的 L2 距離索引庫中。當使用者提問時，系統會計算 Cosine Similarity，精準抓取 Top-3 最相關的講義片段作為上下文 (Context) 餵給生成模型，有效降低 LLM 的幻覺 (Hallucination)。
 
+## 📸 系統畫面展示 (Demo)
+<img width="801" height="339" alt="image" src="https://github.com/user-attachments/assets/59fb65da-4dc2-4a39-870e-d0f6c9f6d0ad" />
+
+
 ## 🚀 執行與使用方式 (How to Run)
 強烈建議使用 **Google Colab** 執行以獲得最佳環境相容性：
 1. 取得本專案的 Jupyter Notebook 檔。
